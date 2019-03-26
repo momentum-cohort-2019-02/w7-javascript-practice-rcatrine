@@ -25,10 +25,10 @@ function greeting(name) {
 
 function isOdd(number) {
 	if (number % 2 === 1 || number % 2 === - 1) {
-			return true
+		return true
 	} 
 	else {
-			return false
+		return false
 	}
 }
 
@@ -76,9 +76,9 @@ function fahrenheitToKelvin(fTemp) {
 
 function lesser(a, b) {
 	if (a > b)
-			return b
+		return b
 	if (a < b)
-			return a
+		return a
 }
 
 // 9. Create a function called multigreeting that takes a name
@@ -95,13 +95,13 @@ function lesser(a, b) {
 
 function multigreeting(name, lCode) {
 	if (lCode === "en")
-			return (`Hello, ${name}!`)
+		return (`Hello, ${name}!`)
 	if (lCode === "es")
-			return (`¡Hola, ${name}!`)
+		return (`¡Hola, ${name}!`)
 	if (lCode === "fr")
-			return (`Bonjour, ${name}!`)
+		return (`Bonjour, ${name}!`)
 	if (lCode === "eo")
-			return (`Saluton, ${name}!`)
+		return (`Saluton, ${name}!`)
 }
 
 // 10. Create a function called "sum" that takes an array of numbers and
@@ -110,7 +110,7 @@ function multigreeting(name, lCode) {
 function sum(nArray) {
 	let total =0
 	for (let num of nArray) {
-		total += num
+	total += num
 	}
 	return total
 }
@@ -120,7 +120,7 @@ function sum(nArray) {
 
 function average(numbers) {
 	if (numbers.length === 0) {
-		return
+	return
 	}
 	return sum(numbers) / numbers.length
 }
